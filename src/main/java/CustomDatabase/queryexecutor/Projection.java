@@ -1,6 +1,6 @@
-package queryexecutor;
+package CustomDatabase.queryexecutor;
 
-import core.Tuple;
+import CustomDatabase.core.Tuple;
 
 import java.util.HashMap;
 import java.util.List;

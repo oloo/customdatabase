@@ -1,4 +1,4 @@
-package core;
+package CustomDatabase.core;
 
 import java.util.Map;
 import java.util.stream.Collectors;

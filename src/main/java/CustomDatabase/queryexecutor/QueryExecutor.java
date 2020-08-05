@@ -1,14 +1,14 @@
-package queryexecutor;
+package CustomDatabase.queryexecutor;
 
-import core.QueryExpression;
-import core.QueryPlan;
-import core.QueryResultSet;
-import core.Tuple;
+import CustomDatabase.core.QueryExpression;
+import CustomDatabase.core.QueryPlan;
+import CustomDatabase.core.QueryResultSet;
+import CustomDatabase.core.Tuple;
 
 import java.util.List;
 
-import static core.Node.PROJECTION;
-import static core.Node.SELECTION;
+import static CustomDatabase.core.Node.PROJECTION;
+import static CustomDatabase.core.Node.SELECTION;
 import static java.util.Objects.isNull;
 
 public class QueryExecutor {
