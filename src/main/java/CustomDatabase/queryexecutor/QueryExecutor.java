@@ -51,11 +51,10 @@ public class QueryExecutor {
 
         QueryExpression currentExpression = expressions.get(currentIndex);
 
-        // TODO: Make this generic to capture multiple selections
         if (currentExpression.getNode() == SELECTION) {
-            Equals equals = new Equals(currentExpression.getValues(), currentIterator);
+            Iterator filterIterator = Filter.getFilter(currentExpression.getValues(), currentIterator);
             currentIndex--;
-            return buildIterator(expressions, equals, currentIndex);
+            return buildIterator(expressions, filterIterator, currentIndex);
         }
 
         if (currentExpression.getNode() == PROJECTION) {

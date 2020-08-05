@@ -11,10 +11,10 @@ public class Equals implements Iterator {
     private final String value;
     private final Iterator previousIterator;
 
-    public Equals(List<String> values, Iterator previousIterator) {
+    public Equals(String field, String value, Iterator previousIterator) {
         this.previousIterator = previousIterator;
-        this.field = values.get(0);
-        this.value = values.get(2);
+        this.field = field;
+        this.value = value;
     }
 
     @Override
