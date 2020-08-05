@@ -1,4 +1,4 @@
-package CustomDatabase.queryexecutor;
+package CustomDatabase.core;
 
 import java.util.List;
 

@@ -1,9 +1,4 @@
-package CustomDatabase.queryexecutor;
-
-import CustomDatabase.core.QueryExpression;
-import CustomDatabase.core.QueryPlan;
-import CustomDatabase.core.QueryResultSet;
-import CustomDatabase.core.Tuple;
+package CustomDatabase.core;
 
 import java.util.List;
 

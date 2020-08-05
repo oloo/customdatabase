@@ -23,6 +23,8 @@ repositories {
 dependencies {
     // This dependency is used by the application.
     implementation("com.google.guava:guava:29.0-jre")
+    implementation("com.fasterxml.jackson.core:jackson-core:2.11.2")
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.11.2")
 
     // Use JUnit Jupiter API for testing.
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.6.2")
